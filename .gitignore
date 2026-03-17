@@ -1,0 +1,5 @@
+# Build output
+frontend/dist/
+
+# General dist folders
+dist/
