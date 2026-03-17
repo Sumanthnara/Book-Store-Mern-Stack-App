@@ -21,7 +21,7 @@ Bookstore app inspired by the referenced project flow, implemented with an origi
   - Update order status
 
 ## Run
-1. Start MongoDB locally on `mongodb://localhost:27017`.
+1. Start MongoDB locally on `local host`.
 2. Backend:
    - `cd backend`
    - `npm.cmd install`
@@ -42,7 +42,7 @@ Seed now inserts 15 books with richer descriptions and metadata (publisher, page
 
 ## Environment
 - `backend/.env`
-  - `MONGO_URI=mongodb://localhost:27017/book-store`
+  - `MONGO_URI=mongodb://localhost:/book-store`
   - `JWT_SECRET=dev_super_secret_change_me`
   - `PORT=5000`
   - `CORS_ORIGINS=http://localhost:5173`
